@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3rem;
+}
+
+nav a {
+  color: black;
+  font-size: 1.2rem;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+section.main .container h3 {
+  text-align: center;
+  margin: 1.3rem auto;
+  font-size: 2rem;
+}
+
+section.main .container h3 span {
+  color: salmon;
+}
+
+section.main .container .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section.main .container .row img {
+  width: 447px;
+  margin: 1px;
+}
